@@ -1,15 +1,19 @@
 # Up and running: Next.js, Hasura, and Relay
 
-[Slides available here](https://drive.google.com/file/d/1ptRY0h9aiQvKUetTSxOzgF_nlFFs8NZO/view)
+## [Slides available here](https://drive.google.com/file/d/1ptRY0h9aiQvKUetTSxOzgF_nlFFs8NZO/view)
 
-**Setting up Hasura with project metadata**
+**React Denver Meetup slides and project**
+
+---
+
+#### Setting up Hasura with project metadata
 
 1. Create Hasura project
 2. Go to Settings
 3. Click "Import Metadata"
 4. Import `hasura_metadata.json`
 
-**Starting Next.js project**
+#### Starting Next.js project
 
 1. Create `.env.local` at project root and add the following environment variables:
   * `NEXT_PUBLIC_GRAPHQL_ENDPOINT=http://localhost:3000/api/graphql`
